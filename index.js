@@ -14,7 +14,9 @@ const factsArray = ["He was the last Beatle to learn to drive", "He was never a 
 
 function johnLennonFacts(factsArray) {
   var excitedFacts = [];
-  while (excitedFacts.length !== factsArray.length) {
-    excitedFacts.push()
+  var index = 0;
+  while (index < factsArray.length) {
+    excitedFacts.push(`${factsArray[index]}!!!`);
+    index++;
   }
 }
