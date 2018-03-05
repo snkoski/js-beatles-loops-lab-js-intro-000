@@ -19,4 +19,5 @@ function johnLennonFacts(factsArray) {
     excitedFacts.push(`${factsArray[index]}!!!`);
     index++;
   }
+  return excitedFacts;
 }
